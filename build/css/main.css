@@ -1,0 +1,40 @@
+body {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 18px;
+   width: 720px;
+   margin: 0 auto;
+}
+
+.sort-demo {
+   position: relative;
+   height: 150px;
+   background-image: url(../img/stage.png);
+   background-repeat: no-repeat;
+   background-position: 0px 79px;
+   background-size: 100% 50%;
+}
+
+.sort-demo .actor {
+   -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+           box-sizing: border-box;
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 80px;
+   font-size: 32px;
+   color: steelblue;
+   background-image: url(../img/standing.png);
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-position: 5px 65px;
+}
+
+.sort-demo .actor.active {
+   background-image: url(../img/dancing.gif);
+}
+
+.start-button {
+   text-decoration: underline;
+   cursor: pointer;
+   color: #0040D0;
+}
